@@ -1,0 +1,195 @@
+
+.logo{
+    width: 300px;
+    height: 270px;
+    padding: 10px;
+    
+}
+
+.tituloprincipal{
+    color: #0a916b;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+.subtitulo{
+    font-family: 'Quicksand', sans-serif;
+    color: #000000;
+    text-shadow: 2px 2px 4px #3c9393;
+    font-size: 23px;
+}
+
+.btn-verde {
+    background-color: #0a916b;
+    color: white;
+    border-color: #0a916b;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.imagem1{
+    width: 500px;
+}
+
+.btn-dourado {
+    background-color: goldenrod;
+    color: #fff;
+}
+
+.btn-dourado:hover {
+    background-color: darkgoldenrod;
+}
+
+
+.banner1{
+    width: 1519px;
+    height: 550px;
+}
+
+.equipecred{
+    margin-left: 90px;
+}
+
+.element{
+    flex: 1;
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+.col{
+    width: 100%;
+    padding: 20px;
+}
+
+.row{
+    width: 100%;
+    padding: 20px;
+}
+
+.perguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-section{
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.accordion-button,
+.accordion-item{
+    background-color: #d4e5e0;
+}
+
+.custom-input,
+.custom-select {
+    border-radius: 20px;
+}
+
+.custom-input {
+    padding: 10px;
+    width: 500px;
+    margin-left: 25px;
+}
+
+.custom-select {
+  width: 500px;
+  margin: 0;
+}
+
+.tituloform{
+    color: #0a916b;
+}
+
+.card2{
+    background: linear-gradient(to right, #84adb7, #0a916b);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 90px;
+    margin: 40px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2{
+    margin-left: 230px;
+}
+
+
+.paragraforodape{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 15px;
+}
+
+.icone{
+    width: 70px;
+}
+
+h1{
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #d4e5e0;
+}
+
+.rodape {
+    background: linear-gradient(to left, #84adb7, #0a916b);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.custom-card {
+    background-color: #aeded0;
+    border-radius: 30px;
+}
+
+.card-body2{
+    width: 280px;
+    height: 80px;
+    padding: 20px;
+}
+
+.card-deck{
+    padding: 20px;
+}
+
+.casal{
+    width: 500px;
+    margin-left: 50px;
+}
+
+.contactinfo{
+    margin-left: 50px;
+}
+
+.contato{
+    width: 40px;
+    height: 40px;
+}
+ 
+  
