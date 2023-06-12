@@ -1,9 +1,7 @@
-
 .logo{
     width: 300px;
     height: 270px;
     padding: 10px;
-    
 }
 
 .tituloprincipal{
@@ -40,9 +38,9 @@
     background-color: darkgoldenrod;
 }
 
-
 .banner1{
-    width: 1519px;
+    width: 100%;
+    max-width: 1519px;
     height: 550px;
 }
 
@@ -56,7 +54,9 @@
 
 .container{
     display: flex;
+    flex-wrap: wrap;
     padding: 50px;
+    justify-content: center;
 }
 
 .container2{
@@ -136,7 +136,6 @@
     margin-left: 230px;
 }
 
-
 .paragraforodape{
     margin-left: 70px;
     margin-right: 70px;
@@ -191,5 +190,17 @@ body{
     width: 40px;
     height: 40px;
 }
- 
+
+/* Conteúdos exibidos lado a lado em dispositivos móveis */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row {
+        width: 100%;
+    }
+}
+
   
