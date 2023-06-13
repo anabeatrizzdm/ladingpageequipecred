@@ -1,4 +1,5 @@
 .logo{
+    max-width: 100%;
     width: 300px;
     height: 270px;
     padding: 10px;
@@ -26,7 +27,9 @@
 }
 
 .imagem1{
+    max-width: 100%;
     width: 500px;
+    height: auto;
 }
 
 .btn-dourado {
@@ -50,12 +53,16 @@
 
 .element{
     flex: 1;
+    margin-bottom: 20px;
+    flex-basis: 50%;
+    text-align: center;
+    padding: 20px;
 }
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 10px;
     justify-content: center;
 }
 
@@ -87,8 +94,6 @@
 
 .faq-section{
     padding: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
 }
 
 .accordion-button,
@@ -159,6 +164,8 @@ body{
     background: linear-gradient(to left, #84adb7, #0a916b);
     color: #fff;
     padding: 20px;
+    margin-top: 50px;
+    background-color: #f7f7f7;
     text-align: center;
 }
 
@@ -178,7 +185,9 @@ body{
 }
 
 .casal{
+    max-width: 100%;
     width: 500px;
+    height: auto;
     margin-left: 50px;
 }
 
@@ -203,4 +212,23 @@ body{
     }
 }
 
+@media (max-width: 500px) {
+    .casal {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq-section {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .rodape {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+}
   
