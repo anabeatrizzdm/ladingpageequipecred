@@ -145,6 +145,7 @@
     margin-left: 70px;
     margin-right: 70px;
     padding: 15px;
+    text-align: left;
 }
 
 .icone{
@@ -218,6 +219,12 @@ body{
  .whatsapp-float .whatsapp-icon {
     margin-top: 15px;
  }
+
+.creditos{
+    color: #0a916b;
+    text-align: center;
+    text-decoration: none;
+}
 
 @media (max-width: 768px) {
     .container {
